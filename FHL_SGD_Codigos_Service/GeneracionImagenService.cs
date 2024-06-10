@@ -76,7 +76,7 @@ namespace GeneracionImagenesService
                         }
 
                         // Espera algunos segundos antes de la próxima solicitud
-                        await Task.Delay(TimeSpan.FromSeconds(Convert.ToInt32(ExecutionTime)));
+                        await Task.Delay(TimeSpan.FromMinutes(Convert.ToInt32(ExecutionTime)));
                     }
                 }
                 catch (Exception ex)
