@@ -35,8 +35,8 @@ namespace Codigos.Negocio.Negocios.Componentes
             //Variables para crear parametros SP
             DateTime fechaValidacionFin = new DateTime();
             fechaValidacionFin = fechaValidacioninicial.AddDays(2);
-            string fechaInicio = fechaValidacioninicial.ToString("dd-MM-yyyy 00:00:00");
-            string fechaFin = fechaValidacionFin.ToString("dd-MM-yyyy 00:00:00");
+            string fechaInicio = fechaValidacioninicial.ToString("yyyy-MM-ddT00:00:00");
+            string fechaFin = fechaValidacionFin.ToString("yyyy-MM-ddT00:00:00");
             //--Tipo consulta:
             //--Despacho: 1
             //--Ticket: 2
