@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FHL_SGD_Codigos": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

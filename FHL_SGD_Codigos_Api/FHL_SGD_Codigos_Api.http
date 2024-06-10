@@ -1,0 +1,6 @@
+@FHL_SGD_Codigos_Api_HostAddress = http://localhost:5133
+
+GET {{FHL_SGD_Codigos_Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
